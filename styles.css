@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* 50% of view width:50vw */
+}
