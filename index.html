@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
     <link  href="/styles.css" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <div class="container">
-        <h1 class="heading">CASH REGISTER MANAGER</h1>
+        <h1 class="heading nav">CASH REGISTER MANAGER</h1>
         <p class="description">Enter the Bill amount and cash given by customer and know the minimum number of notes to return</p>
-        <label for="bill-amount" >Bill amount:</label>
-        <input id="bill-amount" type="text"/>
-        <label for="cash-given" >Cash given:</label>
-        <input id="cash-given" type="text"/>
+        <label for="bill-amount" class="input-label">Bill amount:</label>
+        <input id="bill-amount" type="text" class="input"/>
+        <label for="cash-given" class="input-label" >Cash given:</label>
+        <input id="cash-given" type="text" class="input"/>
         <button id="check-button">CHECK</button>
         <p id="error-message"></p>
 
