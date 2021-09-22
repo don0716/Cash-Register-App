@@ -103,3 +103,57 @@ body {
   border-collapse: collapse;
   padding: 0.4rem;
 }
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    border-top-left-radius: 2rem;
+    border-top: 5px solid var(--darker-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    bottom: opx;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color); 
+}
+
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
