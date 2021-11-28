@@ -7,6 +7,8 @@ const noOfNotes = document.querySelectorAll(".no-of-notes")
 
 const availableNotes = [2000, 500, 200, 100, 50, 20, 10, 5, 1]
 
+// cashGiven.style.display = "none"
+
 
 // checkButton.addEventListener("click", () => console.log("clicked")) 
 
@@ -14,6 +16,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
     hideMessage()
     
     if (billAmount.value > 0) {
+
 
          if (cashGiven.value >= billAmount.value) {
               const amountToBeReturned = cashGiven.value - billAmount.value;
