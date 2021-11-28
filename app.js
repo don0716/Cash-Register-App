@@ -67,4 +67,3 @@ function calculateChange(amountToBeReturned) {
      }
 }
 
-
