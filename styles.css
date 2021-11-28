@@ -63,7 +63,7 @@ body {
     font-weight: 600;
   }
 
-#check-button {
+#check-button, #next {
     background: var(--darker-color);
     border: none;
     color: #fff;
@@ -157,3 +157,5 @@ body {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+
